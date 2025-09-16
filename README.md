@@ -10,7 +10,7 @@ This small project shows how Python can read data from a file, modify it, and th
 
 ---
 
-## What the Program Does 🖋️
+## What the Program Does
 
 1. Asks the user to type the name of a file.
 2. Tries to open the file in **read mode**.
@@ -27,10 +27,10 @@ This small project shows how Python can read data from a file, modify it, and th
 
 ---
 
-## Example Run 💻
+## Example Run
 
 ```
-Welcome to the File Handling Challenge 📁
+Welcome to the File Handling Challenge Quiz
 Enter the filename you want to open: notes.txt
 ✅ Success! Your modified file is saved as 'modified_notes.txt'.
 ```
@@ -53,7 +53,7 @@ Contents of `modified_notes.txt`:
 
 ---
 
-## Error Handling 🌪️
+## Error Handling 
 
 This program is protected against common issues:
 
@@ -66,7 +66,7 @@ It also has a **finally block** to show that file operations are finished, no ma
 
 ---
 
-## Best Practices Followed 📏
+## Best Practices Followed 
 
 * Used `with open(...)` so files are closed automatically.
 * Checked for empty file content.
@@ -75,17 +75,15 @@ It also has a **finally block** to show that file operations are finished, no ma
 
 ---
 
-## How to Run ▶️
+## How to Run 
 
-1. Save the program into a file, e.g., `file_challenge.py`.
+1. Save the program into a file, e.g., `main.py`.
 2. Make sure you have a text file to test with (e.g., `notes.txt`).
 3. Run it with:
 
    ```
-   python file_challenge.py
+   python main.py
    ```
 4. Follow the prompts.
 
 ---
-
-Would you like me to keep this **README short and student-friendly**, or expand it into something a bit more **formal and report-like** (like what you’d hand in for grading)?
